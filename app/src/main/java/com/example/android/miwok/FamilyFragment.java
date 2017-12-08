@@ -34,7 +34,7 @@ public class FamilyFragment extends Fragment {
         public void onAudioFocusChange(int focusChange) {
             switch (focusChange) {
                 case AudioManager.AUDIOFOCUS_GAIN:
-                    mPlayer.start();
+//                    mPlayer.start();
                     break;
                 case AudioManager.AUDIOFOCUS_LOSS:
                     releaseMediaPlayer();
