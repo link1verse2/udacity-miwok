@@ -6,8 +6,9 @@
     android:orientation="vertical">
 
     <android.support.design.widget.TabLayout
-        android:background="@color/primary_color"
         android:id="@+id/sliding_tabs"
+        style="@style/MyCustomTabLayout"
+        app:tabTextColor="#A8A19E"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabMode="fixed" />
@@ -16,7 +17,6 @@
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="1"
-        android:background="@android:color/white" />
+        android:layout_weight="1" />
 
 </LinearLayout>
