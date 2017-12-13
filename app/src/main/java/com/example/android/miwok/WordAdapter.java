@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +35,8 @@ public class WordAdapter extends ArrayAdapter<Word> {
         super(context, 0, words);
         //set the global variable color id to that of the input
         mColorResourceId = colorResourceId;
+
+        Log.v("Toppings", "Poppo");
     }
     /**
      * Provides a view for an AdapterView (ListView, GridView, etc.)
